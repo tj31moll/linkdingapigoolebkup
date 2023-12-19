@@ -1,6 +1,6 @@
 Certainly! Below is a template for a `README.md` file for your Flask application that integrates Google OAuth for authentication and provides functionalities to export bookmarks from Linkding and back them up to Google Drive. You can adjust it according to your specific requirements and additional details.
 
-```markdown
+markdown
 # Bookmarks Backup App
 
 This application is a Flask-based web service designed to export bookmarks from Linkding and back them up to Google Drive. It utilizes Google OAuth for user authentication.
@@ -23,30 +23,29 @@ This application is a Flask-based web service designed to export bookmarks from 
 ### Installation Steps
 
 1. **Clone the Repository**:
-   ```
-   git clone [repository-url]
+      git clone [repository-url]
    cd [repository-name]
-   ```
+   
 
 2. **Set up a Virtual Environment** (Optional but recommended):
-   ```
+   
    python -m venv venv
    source venv/bin/activate  # On Windows use `venv\Scripts\activate`
-   ```
+   
 
 3. **Install Dependencies**:
-   ```
+   
    pip install flask google-auth google-auth-oauthlib google-auth-httplib2 google-api-python-client requests
-   ```
+   
 
 4. **Configure Application**:
    - Place your Google OAuth `client_secret.json` in the project directory.
    - Set the `LINKDING_API_TOKEN` and `LINKDING_API_URL` in the application code.
 
 5. **Run the Application**:
-   ```
+   
    python app.py
-   ```
+   
 
 ## Usage
 
@@ -67,7 +66,7 @@ Feel free to fork the project, make changes, and submit pull requests. Please fo
 [Your Name] - [Your Email]
 
 Project Link: [repository-url]
-```
+
 
 **Notes for Customization**:
 - Replace `[repository-url]` and `[repository-name]` with your actual repository information.
